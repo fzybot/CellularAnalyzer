@@ -5,6 +5,7 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+import androidx.viewpager.widget.ViewPager;
 
 import android.Manifest;
 import android.content.Context;
@@ -23,6 +24,11 @@ import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+
+import com.example.cellularanalyzer.ui.main.SectionsPagerAdapter;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
+import com.google.android.material.tabs.TabLayout;
 
 import java.util.List;
 
@@ -49,7 +55,21 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        textView = findViewById(R.id.text);
+        SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
+        ViewPager viewPager = findViewById(R.id.view_pager);
+        viewPager.setAdapter(sectionsPagerAdapter);
+        TabLayout tabs = findViewById(R.id.tabs);
+        tabs.setupWithViewPager(viewPager);
+        FloatingActionButton fab = findViewById(R.id.fab);
+
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+            }
+        });
+
         telephonyManager = (TelephonyManager) this.getSystemService(Context.TELEPHONY_SERVICE);
         if (ActivityCompat.checkSelfPermission(getBaseContext(), READ_SMS) != PackageManager.PERMISSION_GRANTED &&
                 ActivityCompat.checkSelfPermission(getBaseContext(), READ_PHONE_NUMBERS) != PackageManager.PERMISSION_GRANTED &&
@@ -58,9 +78,6 @@ public class MainActivity extends AppCompatActivity {
                 ActivityCompat.checkSelfPermission(getBaseContext(), READ_PHONE_STATE) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{READ_SMS, READ_PHONE_NUMBERS, ACCESS_FINE_LOCATION, READ_PHONE_STATE,ACCESS_COARSE_LOCATION}, PERMISSION_REQUEST_CODE);
         } else {
-//            textView.setText(""+telephonyManager.getAllCellInfo());
-//            Log.d(LOG_TAG, String.valueOf(telephonyManager.getAllCellInfo()));
-//            Log.d(LOG_TAG, String.valueOf(telephonyManager.getPhoneType()));
             MyListener = new PhoneStateListener(){
                 @Override
                 public void onSignalStrengthsChanged(SignalStrength signalStrength) {
@@ -100,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
                         ActivityCompat.checkSelfPermission(this, READ_PHONE_STATE) != PackageManager.PERMISSION_GRANTED) {
                     return;
                 } else {
-                    textView.setText(""+telephonyManager.getSignalStrength());
+
                 }
         }
     }

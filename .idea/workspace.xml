@@ -23,7 +23,18 @@
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9c09963-b2c0-4ebc-806e-c23e3ef21f92" name="Default Changelist" comment="" />
+    <list default="true" id="a9c09963-b2c0-4ebc-806e-c23e3ef21f92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cellularanalyzer/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cellularanalyzer/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cellularanalyzer/MyPhoneStateListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cellularanalyzer/ServiceReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cellularanalyzer/ui/main/PlaceholderFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cellularanalyzer/ui/main/PlaceholderFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,10 +57,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1fageC7mnoh1rS6X5c3TnboOGe6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -57,12 +75,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ScreenshotViewer.SavePath" value="$PROJECT_DIR$" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.1497215106">
+      <recent name="com.example.cellularanalyzer" />
+    </key>
     <key name="android.template.1574007448">
       <recent name="com.example.cellularanalyzer" />
     </key>
@@ -145,30 +167,38 @@
       <screen x="0" y="0" width="1422" height="760" />
     </state>
     <state x="518" y="90" key="#com.intellij.ide.util.MemberChooser/0.0.1422.760@0.0.1422.760" timestamp="1596600911201" />
-    <state x="443" y="128" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596615937867">
+    <state x="443" y="128" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596624439073">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state x="443" y="128" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1422.760@0.0.1422.760" timestamp="1596615937867" />
-    <state x="493" y="121" key="FileChooserDialogImpl" timestamp="1596541572654">
+    <state x="443" y="128" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1422.760@0.0.1422.760" timestamp="1596624439073" />
+    <state x="293" y="136" key="AndroidCreateResourceFileDialog" timestamp="1596626212695">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state x="493" y="121" key="FileChooserDialogImpl/0.0.1422.760@0.0.1422.760" timestamp="1596541572654" />
-    <state width="1380" height="333" key="GridCell.Tab.0.bottom" timestamp="1596615064608">
+    <state x="293" y="136" key="AndroidCreateResourceFileDialog/0.0.1422.760@0.0.1422.760" timestamp="1596626212695" />
+    <state x="565" y="194" key="AndroidCreateXmlResourceDialog" timestamp="1596626359549">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1380" height="333" key="GridCell.Tab.0.bottom/0.0.1422.760@0.0.1422.760" timestamp="1596615064608" />
-    <state width="1380" height="333" key="GridCell.Tab.0.center" timestamp="1596615064608">
+    <state x="565" y="194" key="AndroidCreateXmlResourceDialog/0.0.1422.760@0.0.1422.760" timestamp="1596626359549" />
+    <state x="493" y="121" key="FileChooserDialogImpl" timestamp="1596625770548">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1380" height="333" key="GridCell.Tab.0.center/0.0.1422.760@0.0.1422.760" timestamp="1596615064608" />
-    <state width="1380" height="333" key="GridCell.Tab.0.left" timestamp="1596615064608">
+    <state x="493" y="121" key="FileChooserDialogImpl/0.0.1422.760@0.0.1422.760" timestamp="1596625770548" />
+    <state width="1380" height="333" key="GridCell.Tab.0.bottom" timestamp="1596626810741">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1380" height="333" key="GridCell.Tab.0.left/0.0.1422.760@0.0.1422.760" timestamp="1596615064608" />
-    <state width="1380" height="333" key="GridCell.Tab.0.right" timestamp="1596615064608">
+    <state width="1380" height="333" key="GridCell.Tab.0.bottom/0.0.1422.760@0.0.1422.760" timestamp="1596626810741" />
+    <state width="1380" height="333" key="GridCell.Tab.0.center" timestamp="1596626810741">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1380" height="333" key="GridCell.Tab.0.right/0.0.1422.760@0.0.1422.760" timestamp="1596615064608" />
+    <state width="1380" height="333" key="GridCell.Tab.0.center/0.0.1422.760@0.0.1422.760" timestamp="1596626810741" />
+    <state width="1380" height="333" key="GridCell.Tab.0.left" timestamp="1596626810740">
+      <screen x="0" y="0" width="1422" height="760" />
+    </state>
+    <state width="1380" height="333" key="GridCell.Tab.0.left/0.0.1422.760@0.0.1422.760" timestamp="1596626810740" />
+    <state width="1380" height="333" key="GridCell.Tab.0.right" timestamp="1596626810741">
+      <screen x="0" y="0" width="1422" height="760" />
+    </state>
+    <state width="1380" height="333" key="GridCell.Tab.0.right/0.0.1422.760@0.0.1422.760" timestamp="1596626810741" />
     <state x="446" y="257" key="ScreenshotRecorder.Options.Dimensions" timestamp="1596514821265">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
@@ -181,6 +211,10 @@
       <screen x="0" y="0" width="1422" height="760" />
     </state>
     <state x="409" y="205" key="com.intellij.ide.util.TipDialog/0.0.1422.760@0.0.1422.760" timestamp="1596511688116" />
+    <state x="524" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596626929935">
+      <screen x="0" y="0" width="1422" height="760" />
+    </state>
+    <state x="524" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1422.760@0.0.1422.760" timestamp="1596626929935" />
     <state x="483" y="225" key="edit.logcat.filter.dialog.dimensions" timestamp="1596534861651">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
