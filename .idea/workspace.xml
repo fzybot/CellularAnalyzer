@@ -62,6 +62,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Ruslan Akhpahsev &lt;ruslan.akhpashev@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fageC7mnoh1rS6X5c3TnboOGe6" />
@@ -179,6 +184,10 @@
       <screen x="0" y="0" width="1422" height="760" />
     </state>
     <state x="565" y="194" key="AndroidCreateXmlResourceDialog/0.0.1422.760@0.0.1422.760" timestamp="1596626359549" />
+    <state x="344" y="0" key="CommitChangelistDialog2" timestamp="1596626987380">
+      <screen x="0" y="0" width="1422" height="760" />
+    </state>
+    <state x="344" y="0" key="CommitChangelistDialog2/0.0.1422.760@0.0.1422.760" timestamp="1596626987380" />
     <state x="493" y="121" key="FileChooserDialogImpl" timestamp="1596625770548">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
